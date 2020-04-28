@@ -1,3 +1,10 @@
+# To Run this project locally
+
+1. Create a file called `.env.development.local`
+2. Add REACT_APP_DARK_SKY_KEY=[YOUR_DARK_SKY_API_KEY]
+3. Run `yarn install`
+4. Run `yarn start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

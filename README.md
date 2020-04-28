@@ -1,7 +1,7 @@
 # To Run this project locally
 
 1. Create a file called `.env.development.local`
-2. Add REACT_APP_DARK_SKY_KEY=[YOUR_DARK_SKY_API_KEY]
+2. Add variable `REACT_APP_DARK_SKY_KEY=[YOUR_DARK_SKY_API_KEY]` to `.env.development.local` file
 3. Run `yarn install`
 4. Run `yarn start`
 

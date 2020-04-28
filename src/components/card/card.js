@@ -34,7 +34,7 @@ const Card = () => {
     setfetchingWeather(true);
 
     axios(
-      `http://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/32cf9191192c7e52a2ccf85e835453c9/${lat},${lon}?exclude=[currently, minutely, daily, alerts, flags]`
+      `http://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${process.env.REACT_APP_DARK_SKY_KEY}/${lat},${lon}?exclude=[currently, minutely, daily, alerts, flags]`
     )
       .then((response) => {
         setHourWeather(response.data.hourly.data);

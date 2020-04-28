@@ -1,0 +1,56 @@
+.Card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 2px 3px 14px 0 rgba(195, 188, 188, 0.5);
+  max-width: 500px;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.CardTitle {
+  color: #79a6d3;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.Toolbar {
+  border: 1px solid #1f6ab5;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  overflow: hidden;
+
+  & .MuiFormControl-root {
+    height: 100%;
+  }
+}
+
+.ToolbarTitle {
+  background: #1f6ab5;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+}
+
+.ToolbarContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+
+  .MuiTextField-root:first-child {
+    margin-right: 8px;
+  }
+}
+
+.Toggle {
+  margin-top: 24px;
+}

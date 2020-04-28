@@ -1,0 +1,56 @@
+.Table {
+  width: 100%;
+}
+
+.TableHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+
+  h5 {
+    color: #858585;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.TimeValueList {
+  list-style-type: none;
+  height: 300px;
+  margin: 0;
+  overflow: scroll;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    padding: 8px;
+    position: relative;
+
+    h4,
+    h5 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      z-index: 10;
+    }
+
+    h4 {
+      font-weight: 400;
+    }
+
+    h5 {
+      color: #1f6ab5;
+    }
+  }
+}
+
+.TimeValueListItemBackground {
+  background: linear-gradient(90deg, white 0%, #d2e1f0 100%);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
